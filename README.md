@@ -5,7 +5,7 @@
  Download the Ext.ux.RatingField.js, Ext.ux.RatingField.css and starOn.png and starOff.png to your server, include it into the HEAD of your page (After the Ext JS inclusion). For more details please have a look at the demo.html
 
 # Screenshot?
- [ Flickr ] (http://www.flickr.com/photos/harabagiu_dan/6510269863/)
+ [ Flickr ] (http://www.flickr.com/photos/harabagiu_dan/6515876139/)
  
 # Configuration?
 
