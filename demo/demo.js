@@ -20,6 +20,7 @@ function createForm() {
 		    },
 		    {
 				fieldLabel	:	'How cool is it',
+                id          :   'coolrating',
 				name		:	'coolrating',
 				xtype		:	'ratingField',
 				numberOfStars:	7,
@@ -40,7 +41,7 @@ function createForm() {
 	        handler: function() {
 	            var form = this.up('form').getForm();
 	            if (form.isValid()) {
-					console.log(form.getValues());
+					Ext.getCmp("coolrating").reset();
 	            }
 	        }
 	    }]

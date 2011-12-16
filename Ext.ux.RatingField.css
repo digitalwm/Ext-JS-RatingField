@@ -19,3 +19,12 @@
 .starHiddenClearMode {
 	clear 			: 	left;
 }
+
+.starReset {
+    background-image:   url(starReset.png);
+    margin          :   2px 2px;
+    width           :   16px;
+    height          :   16px;
+    display         :   inline-block;
+    float           :   left;
+}
