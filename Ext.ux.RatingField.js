@@ -124,7 +124,7 @@ Ext.define('Ext.ux.RatingField', {
 	 * @param {HTMLElement} t
 	 * @return nothing
 	 */
-	selectStars : function(e, t) {
+	selectStars : function() {
 		var i = 0;
 		var limitStar = t.getAttribute('key');
 
@@ -147,7 +147,7 @@ Ext.define('Ext.ux.RatingField', {
 	 * @param {HTMLElement} t
 	 * @return nothing
 	 */
-	showStars: function(e, t) {
+	showStars: function() {
 		var limitStar = t.getAttribute('key');
 		for(var i = 0 ; i < limitStar ; i++) {
 			if(this.stars[i].hasCls(this.ratingClassOn) === false && this.stars[i].hasCls(this.ratingClassSelected) === false) {
